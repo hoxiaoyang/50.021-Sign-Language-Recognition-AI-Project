@@ -17,20 +17,20 @@ lation into two core components:
 # Code Usage Guide
 Before running our training and evaluation code, download the following datasets
  from the Kaggle competition page and place them in the input folder:
- • Complete dataset with csv, parquet, and json files: https://www.
+- Complete dataset with csv, parquet, and json files: https://www.
  kaggle.com/competitions/asl-signs
- • Dataset in tfrecord format, split into 4 folds: https://www.kaggle.
+-  Dataset in tfrecord format, split into 4 folds: https://www.kaggle.
  com/datasets/hoyso48/islr-5fold
  To run our main preprocessing and training script, run all the cells in
  main_training_ script.ipynb from top to bottom in Kaggle. You can spec
 ify the model type that you want to train, in the second-last cell, by changing
  the model_type integer argument in get_model():
- • 1: cnn_transformers_model
- • 2: cnn_lstm_model
- • 3: cnn_gru_model 
- • 4: cnn_model
- • 5: transformers_model
- • 6: cnn_lintransformers_model
+ - 1: cnn_transformers_model
+ - 2: cnn_lstm_model
+ - 3: cnn_gru_model 
+ - 4: cnn_model
+ - 5: transformers_model
+ - 6: cnn_lintransformers_model
  To evaluate trained models (with .h5 file weights stored in our results folder),
  upload it to the Kaggle input folder and specify the path to the trained .h5
  model weights.
