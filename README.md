@@ -57,23 +57,23 @@ root/
 ├── main_training_notebook.ipynb
 ├── preprocessing_augmentations_walkthrough.ipynb
 ── .gitignore
-├── README.md
-└── requirements.txt    
+└── README.md
+ 
 ```
 
-- eda.ipynb: Dataset analysis and visualization.
-- Initial_Model: Directory containing initial model implementations.
-  - intial-bi-gru.ipynb: Bidirectional GRU model.
-  - intitial-cnn-lstm.ipynb: CNN-LSTM model.
-  - initial-gru.ipynb: Basic GRU model.
-  - intial_BLT.ipynb: Transformer-based model.
-- results: Directory for storing model outputs.
-- ui_for_demo.ipynb: Notebook for hosting the project UI.
-- main_training_notebook.ipynb: Core training script.
-- preprocessing_augmentations_walkthrough.ipynb: Data preprocessing guide.
-- .gitignore: File specifying items to ignore in Git tracking.
-- README.md: Project overview and instructions.
-- requirements.txt: Lists dependencies needed.
+- `eda.ipynb:` Dataset analysis and visualization.
+- `Initial_Model:` Directory containing initial model implementations.
+  - `intial-bi-gru.ipynb:` Bidirectional GRU model.
+  - `intitial-cnn-lstm.ipynb:` CNN-LSTM model.
+  - `initial-gru.ipynb:` Basic GRU model.
+  - `intial_BLT.ipynb:` Transformer-based model.
+- `results:` Directory for storing model outputs.
+- `ui_for_demo.ipynb:` Notebook for hosting the project UI.
+- `main_training_notebook.ipynb:` Core training script.
+- `preprocessing_augmentations_walkthrough.ipynb:` Data preprocessing guide.
+- `.gitignore:` File specifying items to ignore in Git tracking.
+- `README.md:` Project overview and instructions.
+
 
 
  
