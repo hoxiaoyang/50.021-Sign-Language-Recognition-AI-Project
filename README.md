@@ -56,7 +56,7 @@ root/
 ├── ui_for_demo.ipynb
 ├── main_training_notebook.ipynb
 ├── preprocessing_augmentations_walkthrough.ipynb
-── .gitignore
+├── .gitignore
 └── README.md
  
 ```
